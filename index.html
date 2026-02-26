@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TechNova Workshop Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="logo">TechBoom 2026💥</div>
+        
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#event">Event</a></li>
+            <li><a href="#register">Register</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+    
+    <div class="home-logo">
+        <div class="logo-circle">TB</div>
+        <h1>TechBoom 💥</h1>
+    </div>
+
+    <p><strong>Full Stack Development Workshop</p>
+    <p>Learn HTML, CSS & JavaScript with hands-on practice.</p>
+
+    <div class="logos">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+    </div>
+
+    <button onclick="scrollToRegister()">JOIN NOW</button>
+
+</section>
+
+    <!-- About -->
+    <section class="about" id="about">
+
+    <div class="about-row">
+        
+        <!-- Image Left -->
+        <div class="about-image">
+            <img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" alt="Company" width="250">
+
+        </div>
+
+        <!-- Text Right -->
+        <div class="about-text">
+            <h2>About TechBoom 💥</h2>
+            <p>- It is a student-led startup focused on practical tech learning.</p>
+            <p>- We organize hands-on coding workshops to help students build real-world skills.</p>
+            <p>- Our mission is to make learning simple, practical, and career-oriented.</p>
+        </div>
+
+    </div>
+
+
+    <div class="about-row">
+
+        <!-- Text Left -->
+        <div class="about-text">
+            <h2>Our Vision</h2>
+            <p>- To bridge the gap between theory and industry skills.</p>
+            <p>- To provide real coding exposure through mini projects.</p>
+            <p>- To help students gain confidence in web development.</p>
+        </div>
+
+        <!-- Image Right -->
+        <div class="about-image">
+            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png" alt="Student" width="250">
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- Event -->
+    <section id="event">
+        <h1>Workshop Details</h1>
+
+        <div class="card-container">
+            <div class="card">
+                <h3>Date</h3>
+                <p>20-21 March 2026</p>
+            </div>
+
+            <div class="card">
+                <h3>Location</h3>
+                <p>Main Auditorium</p>
+            </div>
+
+            <div class="card">
+                <h3>Certificate</h3>
+                <p>Participants will receive an official certificate after completion.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration -->
+    <section id="register">
+        <h1>Register for Workshop</h1>
+
+        <form id="registrationForm">
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="email" id="email" placeholder="Email Address" required>
+            <input type="text" id="college" placeholder="College Name" required>
+            <select id="year">
+                <option>Select Year</option>
+                <option>1st Year</option>
+                <option>2nd Year</option>
+                <option>3rd Year</option>
+                <option>4th Year</option>
+            </select>
+            <button type="submit">Submit Registration</button>
+        </form>
+
+        <p id="message"></p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <p>Email: technova.workshop@gmail.com</p>
+        <p>Phone: +91 9876543210</p>
+        <p>Follow us on Instagram: @technova_official</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
